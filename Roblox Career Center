@@ -1,0 +1,343 @@
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+local Library = loadstring(Game:HttpGet(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('AqihPfyQevmqbolOQFCukyAwWYmIXiRmWBlyOCfqFfGcJpDVLwyZCZHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Jsb29kYmFsbC8tYmFjay11cHMtZm9yLWxpYnMvbWFpbi93aXphcmQ=')))()
+
+local VirtualUser = game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('fTnuIfoMSmuoRiHEuNIstSJuKyxbrKRYduisnFifCLqsogGQvmVWeUFVmlydHVhbFVzZXI='))
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cKgXZMIyXmZjZGOzewsJUuZYRDknrSYtJyRvhtrCeUKxwClEIQdOAiuUGxheWVycw==')).LocalPlayer.Idled:Connect(function()
+    VirtualUser:CaptureController()
+    VirtualUser:ClickButton2(Vector2.new())
+end)
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('EqFGkQtAhCVGNzcnLACSFwusxbHohPLmVrxchWmTscKVROaKEfgArvAU3RhcnRlckd1aQ==')):SetCore(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('EFXLxPYnbEXqTVcevpyERIeDHBsbHMJkFMkRiNhIoLMJGCdtrchuLHPU2VuZE5vdGlmaWNhdGlvbg=='), {
+    Title = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('WgzEUsCbQyoevSifqMpjuBiscfPxarAjiboflGCEtVMFEFOgyGIdlUCQW50aUFGSyBsb2FkZWQh'),
+    Text = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('wTPVPCjKvyfjANRrExbJxxBjPGfxQvOLnzwZEwfpAjShEanwuboMljmTWFkZSBieSBEYXJrbmVzcw=='),
+    Button1 = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('irlYucqueGZoeAidFJzaFoLXCsUiyaqTPBZOQtvTeFtpTLDOrLuEFKJRW5qb3k='),
+    Duration = 5
+})
+
+local PhantomForcesWindow = Library:NewWindow(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('EcgQzCwWFXfYBTWXvillygYQLiVlohooPoZbcajejclXPztPSwvLbLfUm9ibG94IENhcmVlciBDZW50ZXI='))
+
+local KillingCheats = PhantomForcesWindow:NewSection(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('kwpbcPGThFvpcFxlHKNFMZMezHcqoRRwdgJIPDUHtBvFvmrmRoezCydTWFpbg=='))
+
+KillingCheats:CreateButton(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('BEjYrlOGUZcDjoncuZovsyaxJKqiEdJWrFbFuPUPsVgBNNRsukywcRjSW5zdGFudCBpdGVt'), function()
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('MHGGCgJYcfjImovaXHRKLdbgXimVilQjpoYUxRQDeXUIpVSCALRVcQEU3RyYXdiZXJyeUJvYmE=')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('jhYEqZPnxNZETVtdSQcdvThLbIuRFXaFCzMCGwgfRNirCnXiPxRAHjgUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('mLYiLoeErbKoEeMrRtoljTHDaaCEQZsCXeqfqKHNPTvMMMOTMrihEXRSW52ZW50b3J5OkdpdmVCb2JhRnVuY3Rpb24=')):InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ujMAXHabmttaUFuRILZwcYXELVYxlKnUgyLpxTmibiDoxwuBkAcKGtFTWlsa1RlYQ==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('HQbwEbamXJkRpIxJCVEcPSslMcBelfLPfSEzUNaBtlqssEIeOqipZxvUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('keBnjbkToVLrWyuCkUmdxtXHrDpDDxEldwhMAuzQcvLyxdWWfCWTcibSW52ZW50b3J5OkdpdmVCb2JhRnVuY3Rpb24=')):InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('urEHKNhbuppHOrXYZPUnEKIntXUzFcutTjRpZTKnwPtpTSvgLvslGABVGhhaVRlYQ==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('lSQDDNUFIkhZqDxasNslSJwzibNAkYjMRqCoONdmbTkGZPGzqEPuBGpUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('QblkCFrAibhccPsnQtQwHoIvatBYZAUxYFMDyRkVrzsfNZwzHvJVZHmSW52ZW50b3J5OkdpdmVCb2JhRnVuY3Rpb24=')):InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('NDEtnljNpMQvTcVvWmikPvQVtQTkBDRtGmsfRzrOLlpCqEpqNwGggnWTWFuZ29Cb2Jh')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ZRklVeMeGrzTQwyaonosHjqTwGVmcWHxfXpmjngMWXobfnVvWAGHbXDUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('qWJDxvGprynokjpfHWUlRVmerAGthlUJdBttDlSJEutRYryulXucLcmSW52ZW50b3J5OkdpdmVCb2JhRnVuY3Rpb24=')):InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('OETwxJgVyVRzWSlebnuZtphHtpxXCokfJzxgRMQIVmRMFaPKdzxDEDRa2FyZW50b3k=')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('KbCvuFlEMOvkaBfmMLuWOrLwoFuzqefFuXzrOeRkpGtzNtvHQVfprSBUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('oRTqeeiRPYqvkwJieTNhtBedoBnCSRXLKTjIBWhUrFwAcsTPrwZDYUoa2FyZW50b3k='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('LcQShIbhktYyOgiKQnrbyveKbzZviXlEYrbKKvhGvETRWMhrGugxEYNUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('xhrmSRwgOUSTqjxeNXcPaNZrpNmAJhBkLPtZjccmpBtyMnCWTAFrhfKa2FyZW50b3k='),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('GYCXSyBtycWnuRotXljCGbYlUiOERopvlCFTZmfaNfcMwHxHTiVQKuMUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('usccaWrqdYYPGMskqkoFLjpGVMusFfWfAivKJbNqmVpMtYJNrbLSMdxa2FyZW50b3k='),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('kaFgOJOjevtSPmcXmrHAkDbrIfmHCQqhsZULNsyQDFZEpPTtPhKOvBPUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('FJCyEDAstjmoIxQaZYjdcgQzYmjtmBmgHtiTrOeWINlnVJDNLslHSEJZmluZGFmb3VuZGVy')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('LIDYvGsMtcfHCBZltlwEQlwxzjFVictpeHdVbCuSTZupiVOELDocRxkUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('rWaHFnFUNjUBhwSWZChpmQkAVLTMosBnteQADyVSfzThDlPjEXBODeJZmluZGFmb3VuZGVy'),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('wlzyHRsweBcMJLUapxbMyMtiAoAuMrVZDAIOFxkaqmCTwScoPutRcdwUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('JCnfOODzCTUceoxFwkAiCeYjfrGBQNkWeZiWUnGgufVRlbIhWPwPztzZmluZGFmb3VuZGVy'),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('uAfQluPDgaCYRVzIZpcEZjshxLEQfLriukXwcESSQMYYkIgNNnMCoTwUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('flcFzTQezwdYnVEYhyGWbBJLxlbXhEuPfwLbsbutTFkRGHxbLcUPLRdZmluZGFmb3VuZGVy'),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('jOryoUdOWvNbvlprJHBuzlFaFQszmWQSElazawXsPFgExhrSiPAquCMUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ofwTFeGPeymwlnpIowROyvQdEYgYHvrjmqLyrThcYeSSjmjrWqgfVNtcGVyZmVjdGx5cHJlcHBlZA==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('oFBzFSPHAtJlDxEHOHrmoSTolitnEZbLZRowCsCpyAGOeZFmfinudJCUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('DYcOPhqefuiHKYiGOaofrFDTHEIckNkAKasnHQpLlLLdtHGLwWXZexKcGVyZmVjdGx5cHJlcHBlZA=='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('mLCBBwGjMdBacxTjncriQKJYlhcVtJfmFzFtEUabMeGpmSuWGnfGgdGUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('vIzRMEwlFGbisZkoDFpzFHobwhpwoClHwACfGmJVhbBRngJjJfTEkpNcGVyZmVjdGx5cHJlcHBlZA=='),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('dlYJTZSHJtUDRfKINRCTkZFjvdhuBmpiuzjQQMxRwlkzHhGradYHSyPUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('NvLmLkKaeEeGVSbltEaAtwbRkmnDCMRSgiuUYHSCjxeTZFUeLMhKjvycGVyZmVjdGx5cHJlcHBlZA=='),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cYsYCajfEOCypmwWZOjvfGaDtYVRRBpAhiKdshGYfsAcFdvFOloqUcsUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('GcGcVFfMIERIdUJSLsnJzdCrpVqhQpRBRHeftYAxLdglvjqKXUhNWlecGVyZmVjdGx5cHJlcHBlZA=='),
+    [2] = 4,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('AfSkulMqBnOBktvNotYHcYoTfcujPSrwnmLMbTRQSRFGhpPjVlChtkWUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('SdKGgzwfnIaLtkhrSyXBjOhgqDIHjLvLTGWmzUeAjPVicIFOXGEhoqBcGVyZmVjdGx5cHJlcHBlZA=='),
+    [2] = 5,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('gnLSTklZdHflfENmaQHXqsdXzELqXMVWWBeeItIeeaLkKDXnwhYkjZnUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('sHzbBZUOFjvoWhdRscowxpGnLpQxwgMnHHUfOYjisGbyRNXzRWesvifYXZhdGFyZXZvbHV0aW9u')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('jofoxaApfJrRhalVctPaepbeVZZQhEzCOiSHRTpgBTnOZziGxRKyENtUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ScWdeNTCDBunYbeXPyAOjVdMQWYLNqlKZRQPnNGjyXqjabNrADilUbzYXZhdGFyZXZvbHV0aW9u'),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cQdQojsAdJbnqwWBdwEXbPgDXOgYjclWDBcPHomUcjwUMySnyTCPKqsUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cTjPqmLNENHnDNgSPmHShqgXzcHRgoosWOIDlUhBSDWKmcwPlKskUmrYXZhdGFyZXZvbHV0aW9u'),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('WHCGRwCnrKuLUucPnjQbgnNiAgBntxhufNsVbaAdnlZkJMjksaGaGzOUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ZgxjyOBCyVpiduCiuEgSnEXAeOhChwzMEiWlQLxxvLxZdrmcjLTbXWjYXZhdGFyZXZvbHV0aW9u'),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('XSLQbPUcNAaIjLXuJmqMccreLWBQIakpSHSvFVvOTUofQXncKRTtFdFUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('QwPiOsnbJsYrVoGeJNSBzOpcwUDoKBtlTabrYuMbuhTpeaoRWPyQbFrYXZhdGFyZXZvbHV0aW9u'),
+    [2] = 4,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('fQNiYGRdspiPgTeXgfzevbWsIEWynFUAuocUyUMuLcAeVonlgUXzEFRUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('lnidSWwSQleVqxvFTXWcnKRHacCfNrqyGpUGDJvXggSykOhGKurcspoYXZhdGFyZXZvbHV0aW9u'),
+    [2] = 5,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('PMKKDvOQwwyxlIusrutfYEwlEcKzOfJXhpOvXImcEugvnWWUDQVgzmlUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('dvPOMbNWTfzrMQUyvOnImcRyHUspgDLUHfdRnKLggqDisgISJanZcxaYm9iYXJ1bg==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('tJOwfHFozoAAfqYIekvQdRXMAEdYhTEuoOmTLaKCkzvvasjHTjSmlmjUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('xICNVGKFjbdmqwtVEqxTjWKszFPiOBzftzegRJgiAtKTeYWFKSSjeYOYm9iYXJ1bg=='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('OotKRMMXvGaACBShoXnIrmYmDzxoQvswuoMbaslpLSXovblEEZkIgkhUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('QdhdfPjyswdIJbWlNpEIxOcJZKbnxEzsMCcauhPgODCFoAUEPktwsshYm9iYXJ1bg=='),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('eYjrnXFzOAnoFbdtCNCLkqlTauDeSxHXVmrcxcSUisYXyNDGARUHkJgUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('bsyMOwpjCbYtgvLKUhBrWlDPrTjzonsIquoDHHlcvXgCVitqNrqFLjVYm9iYXJ1bg=='),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('sdbccXPmrDxanNDkIARgpphESvOcggmtxNSSAswBDPvAVTbnfzZaPawUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('WdiTOtUyGZIJEnMdccnjiaqIYNpvAKbRAmuLGFeHFjSgFOrJMuyPINHY29yZXZhbHVlcw==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('uTIfmGhcuZhetlXLSkwSKkYwPCodgJRVSnentCmBnpLfToDzAOBOkpyUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cWPBtQkHqFuJGLtdwcAfdCcyUswgQKtSkcWGyVffZBItBvPlehwFxaeY29yZXZhbHVlcw=='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('vpeZvblYSwFgOOCMOHlTbHBFtDnMEvOdMciTBnLWyZMAlUYJcEigXhqUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('lHChpICszzoarTuBEewkeDrJYzjrPFxjsAKpnRVqkScLHWXFPxVJCELY29yZXZhbHVlcw=='),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('LMxSTwStqgEuSCqczjUvQmLIaPIYZPFaxAUsemVtZbKTELhUGPQSFObUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('DmKeRiWnbQTgKqdJBHhpguUbLdpGdTlyCLGLnzafhQutQZnlJQkIbrSY29yZXZhbHVlcw=='),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('smqYaVyEHyCfImPrUplhNeFqYDwFrBGPyoAUUCPFXZYzYtnUupEibVUUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('qpFxpTkAkOtXilcUCXAxlengpVVLhEwMHEKvTbTWylkbuQWwORCeAnHbm9vYmN1cmlvc2l0eQ==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('PbpAVSfCusQugyrdPRHYuUdBYzTqSbXtIStNreLFQTLnmFZmEIANmJiUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('AmOJGwHiXRgOAxYCNEYosfiZlIevgPTYsbYXtuQxOAyrKJkFSrsfUYXbm9vYmN1cmlvc2l0eQ=='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('jzfUgKmoJEkCCdvcZWnXJmwsLdOozQyKNXBQnVjivDZzzebesWNdJhfUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('GBPtOIBVLRTlvdLSQdKMuqJsMmgMJdAhwyxvjKWSMfCpqUCHmdLNYHibm9vYmN1cmlvc2l0eQ==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('lqdLxVcelejjeecZzwOQSLRcEbzSdGzRiOIMvlCCzmRvWqIHAlOsZGTUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('VhyJNaCgynjENkKspGEaPrFXYOsFrzqUwCePPXsSfIiRXaoOXpdILOqbm9vYmN1cmlvc2l0eQ=='),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('LsIqeAPtmxmxTNhnxOvksqNTqRVmuYwhPAhGTLXddCiOARHHsPDzMUqUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('upVfMyghvpWfVKibRotgGuurJwlSLBKeOORBaROjVUlBDQdSSWIrHKUcmVzZWFyY2hwcm9qZWN0')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('fMBJlnApejFivWMADsBubVbLUvFoIlDUQQTvFJKsOwMClyMOTNdSNsJUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.ActivateQuestRequestFunction:InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('qdwswnQfykgiwUQgRcsfSUCtjLLvaXUbvWHhlVimdSJCchTmYbHJMgucmVzZWFyY2hwcm9qZWN0'),
+    [2] = 1,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('wiLmFUFpvWmYjNLdRRxJWCJEZfUdLZEselAecUcvldmDEPCNEvVbaqmUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('ajbZxbdbdTFMdtyCaClIDntKOulVRSwNwmAvdhXRlrnvEHVnXZzTLRRcmVzZWFyY2hwcm9qZWN0'),
+    [2] = 2,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('PDdifEDbMYPeCCJuqJrErmzSuEGzgXsPYdPmpxltrQMdmdmQTwNjTlOUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('BsIcmSLKscxZTTRNxwrJTCNYLXbzQUFQradyPwlWGuQvZpVmHMsImqScmVzZWFyY2hwcm9qZWN0'),
+    [2] = 3,
+    [3] = 1,
+    [4] = 1
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('zTHekCkbczBlLBbIGtbXodSxFyruaqeCVlYjoFOjerLNeWWXpWUoQJHUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes.SubtaskProgressEvent:FireServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('nlrLnYGYHGgHiLVEkeRNVwIoRcFjuKuadTQcOwftoblJgHPUBFrByuQTGV0dGVybWFuSG9vZGll')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('nDSSRgieMCQxHgrgICzZPZkpvAzyugOcQLzPIPyLezbcDAETbodGGzMUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('toWBLstUfUXuLCTmlWlamJhiktkLBKlhgrZoRbUzpJGnHPxvorHvpTYU2hvcENvcmU6UHVyY2hhc2VJdGVtRnVuY3Rpb24=')):InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('BiHanTaQvdOUxYdqrxIGBQZtDBrLUBGHxGSxRCdtRtlTzVmUBbFOImHU3RyaXBlQmxhY2tUZWU=')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('sAxJhigTibSgzZsjqAqOwNEyIoUJjcKvHunxqheQCBidorZbIOPPXHBUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('AajPXxVUyczSAquHSvUjYlZpOjZfohJwVkepHEpgxVdViIhfxfgGpUuU2hvcENvcmU6UHVyY2hhc2VJdGVtRnVuY3Rpb24=')):InvokeServer(unpack(args))
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('gQkXoxhCXMIhgeiKdBNtgCLpFRUaXEgkspSpukdDyFrWLxwEbcvYwddS25pdENhcA==')
+}
+
+game:GetService(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('cSGHmdbkYmRXaEdfdlGCKqQhSdJSgkaOdjgBMsXbDgMFFiavsSHdRgZUmVwbGljYXRlZFN0b3JhZ2U=')).Remotes:FindFirstChild(ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('RkgNNovSNNxkAHPQhLIKhMynheUpELJMJhaIqiNKCSdkhdeaemPFEwsU2hvcENvcmU6UHVyY2hhc2VJdGVtRnVuY3Rpb24=')):InvokeServer(unpack(args))
+
+local args = {
+    [1] = ZCfNxiNfWlajhpliNgPdTXvmAtRbulQMWqgOteGlWWjqTWN('AiBlOHndRtUwXzLqvcqkXZxbuQnFeGHAjRjKjUhrJUCwHVd
